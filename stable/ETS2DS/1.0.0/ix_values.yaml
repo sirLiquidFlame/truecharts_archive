@@ -1,0 +1,46 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ich777/steamcmd
+  tag: ets2@sha256:03e07ac0208728f01b386edd45f443f67f829c6a94892e42ea9b4ca8197dba92
+persistence:
+  serverfiles:
+    enabled: true
+    mountPath: /serverdata/serverfiles
+  steamcmd:
+    enabled: true
+    mountPath: /serverdata/steamcmd
+portal:
+  open:
+    enabled: true
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 27015
+        protocol: tcp
+        targetPort: 27015
+  udpgameport:
+    enabled: true
+    ports:
+      udpgameport:
+        enabled: true
+        port: 27015
+        protocol: udp
+        targetPort: 27015
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            GAME_ID: "1948160" # ETS2 Game ID for SteamCMD
+            GAME_PARAMS: "+force_install_dir /serverdata/serverfiles +login anonymous +app_update 1948160 validate +quit"
+            PASSWRD: ""  # Optional: Set password if needed for non-anonymous login
+            USERNAME: ""  # Optional: Set Steam credentials here if needed
+            VALIDATE: "true"
