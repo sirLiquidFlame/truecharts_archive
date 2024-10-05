@@ -6871,7 +6871,7 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/etherpad.webp"
         },
-        "ETS2DS": {
+        "ets2ds": {
             "app_readme": "<p>This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.</p><p>Please consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "GameServers"
