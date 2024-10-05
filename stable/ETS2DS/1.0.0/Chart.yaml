@@ -15,7 +15,7 @@ dependencies:
     import-values: []
 deprecated: false
 description: This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.
-home: 
+home: "https://github.com/Niborian/truecharts_archive/tree/main/stable/ETS2DS"
 icon: https://imgur.com/gallery/ets2-logo-jabNnRV
 keywords:
   - ETS2DS
@@ -27,7 +27,7 @@ maintainers:
     url: https://truecharts.org
 name: ETS2DS
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ETS2DS
+  - https://github.com/Niborian/truecharts_archive/tree/main/stable/ETS2DS
   - https://hub.docker.com/r/ich777/steamcmd
   - https://www.steampowered.com/
 type: application

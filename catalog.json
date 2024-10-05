@@ -4662,38 +4662,6 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/craftopia.webp"
         },
-        "ETS2DS": {
-            "app_readme": "<p>This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.</p>Please consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "GameServers"
-            ],
-            "description": "This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "",
-            "location": "/home/runner/_work/catalog/catalog/stable/ETS2DS",
-            "latest_version": "1.0.0",
-            "latest_app_version": "1.51",
-            "latest_human_version": "1.51_6.0.9",
-            "last_update": "2024-10-05 23:50:14",
-            "name": "ETS2DS",
-            "recommended": false,
-            "title": "ETS2DS",
-            "maintainers": [
-                {
-                    "name": "Niborian",
-                    "url": "https://github.com/Niborian/truecharts_archive"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/truecharts/charts/tree/master/charts/stable/ETS2DS",
-                "https://hub.docker.com/r/ich777/steamcmd",
-                "https://www.steampowered.com/"
-            ],
-            "icon_url": "https://imgur.com/gallery/ets2-logo-jabNnRV"
-        },
         "crafty-4": {
             "app_readme": "<p>Crafty Controller is a Minecraft Server Control Panel / Launcher.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/crafty-4\">https://truecharts.org/charts/stable/crafty-4</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
@@ -6902,6 +6870,38 @@
                 "https://github.com/truecharts/charts/tree/master/charts/stable/etherpad"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/etherpad.webp"
+        },
+        "ETS2DS": {
+            "app_readme": "<p>This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.</p>Please consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "GameServers"
+            ],
+            "description": "This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "",
+            "location": "/home/runner/_work/catalog/catalog/stable/ETS2DS",
+            "latest_version": "1.0.0",
+            "latest_app_version": "1.51",
+            "latest_human_version": "1.51_6.0.9",
+            "last_update": "2024-10-05 23:50:14",
+            "name": "ETS2DS",
+            "recommended": false,
+            "title": "ETS2DS",
+            "maintainers": [
+                {
+                    "name": "Niborian",
+                    "url": "https://github.com/Niborian/truecharts_archive"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/truecharts/charts/tree/master/charts/stable/ETS2DS",
+                "https://hub.docker.com/r/ich777/steamcmd",
+                "https://www.steampowered.com/"
+            ],
+            "icon_url": "https://imgur.com/gallery/ets2-logo-jabNnRV"
         },
         "explainshell": {
             "app_readme": "<p>Not everyone, especially people new to Linux and Unraid, know what a command that they type i will actually do.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/explainshell\">https://truecharts.org/charts/stable/explainshell</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
