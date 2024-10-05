@@ -6879,7 +6879,7 @@
             "description": "This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.",
             "healthy": true,
             "healthy_error": null,
-            "home": "",
+            "home": "https://github.com/Niborian/truecharts_archive/tree/main/stable/ETS2DS",
             "location": "/home/runner/_work/catalog/catalog/stable/ETS2DS",
             "latest_version": "1.0.0",
             "latest_app_version": "1.51",
