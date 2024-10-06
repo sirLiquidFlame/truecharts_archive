@@ -6880,14 +6880,14 @@
             "healthy": true,
             "healthy_error": null,
             "home": "https://example.com",
-            "location": "/home/runner/_work/catalog/catalog/stable/ETS2DS",
+            "location": "/home/runner/_work/catalog/catalog/stable/ets2ds",
             "latest_version": "1.0.0",
             "latest_app_version": "1.51",
             "latest_human_version": "1.51_1.0.0",
             "last_update": "2024-10-05 23:50:14",
-            "name": "ETS2DS",
+            "name": "ets2ds",
             "recommended": false,
-            "title": "ETS2DS",
+            "title": "ets2ds",
             "maintainers": [
                 {
                     "name": "Niborian",
@@ -6898,11 +6898,11 @@
             "tags": [],
             "screenshots": [],
             "sources": [
-                "https://github.com/truecharts/charts/tree/master/charts/stable/ETS2DS",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/ets2ds",
                 "https://hub.docker.com/r/ich777/steamcmd",
                 "https://www.steampowered.com/"
             ],
-            "icon_url": "https://raw.githubusercontent.com/Niborian/truecharts_archive/main/stable/ETS2DS/1.0.0/icon.webp"
+            "icon_url": "https://raw.githubusercontent.com/Niborian/truecharts_archive/main/stable/ets2ds/1.0.0/icon.webp"
         },
         "explainshell": {
             "app_readme": "<p>Not everyone, especially people new to Linux and Unraid, know what a command that they type i will actually do.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/explainshell\">https://truecharts.org/charts/stable/explainshell</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",

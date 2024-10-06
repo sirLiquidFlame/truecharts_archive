@@ -15,19 +15,19 @@ dependencies:
     import-values: []
 deprecated: false
 description: This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.
-home: "https://github.com/Niborian/truecharts_archive/tree/main/stable/ETS2DS"
-icon: "https://raw.githubusercontent.com/Niborian/truecharts_archive/main/stable/ETS2DS/1.0.0/icon.webp"
+home: "https://github.com/Niborian/truecharts_archive/tree/main/stable/ets2ds"
+icon: "https://raw.githubusercontent.com/Niborian/truecharts_archive/main/stable/ets2ds/1.0.0/icon.webp"
 keywords:
-  - ETS2DS
+  - ets2ds
   - GameServers
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ETS2DS
+name: ets2ds
 sources:
-  - https://github.com/Niborian/truecharts_archive/tree/main/stable/ETS2DS
+  - https://github.com/Niborian/truecharts_archive/tree/main/stable/ets2ds
   - https://hub.docker.com/r/ich777/steamcmd
   - https://www.steampowered.com/
 type: application

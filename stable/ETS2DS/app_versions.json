@@ -3,7 +3,7 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/stable/ETS2DS/1.0.0",
+        "location": "/home/runner/_work/catalog/catalog/stable/ets2ds/1.0.0",
         "last_update": "2024-10-03 12:35:14",
         "required_features": [
             "definitions/interface",
@@ -35,9 +35,9 @@
             "deprecated": false,
             "description": "This Chart will download and install SteamCMD. It will also install Euro truck simulator 2 dedicated server and run it.",
             "home": "https://example.com", 
-            "icon": "https://raw.githubusercontent.com/Niborian/truecharts_archive/main/stable/ETS2DS/1.0.0/icon.webp",
+            "icon": "https://raw.githubusercontent.com/Niborian/truecharts_archive/main/stable/ets2ds/1.0.0/icon.webp",
             "keywords": [
-                "ETS2DS",
+                "ets2ds",
                 "GameServers"
             ],
             "kubeVersion": ">=1.24.0-0",
@@ -48,9 +48,9 @@
                     "url": "https://truecharts.org"
                 }
             ],
-            "name": "ETS2DS",
+            "name": "ets2ds",
             "sources": [
-                "https://github.com/truecharts/charts/tree/master/charts/stable/ETS2DS",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/ets2ds",
                 "https://hub.docker.com/r/ich777/steamcmd",
                 "https://www.steampowered.com/"
             ],
