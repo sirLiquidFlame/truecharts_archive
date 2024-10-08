@@ -41,7 +41,7 @@ service:
         targetPort: 27016
       udpgameport-udp:
         enabled: true
-        port: 27018
+        port: 27016
         protocol: udp
         targetPort: 27016
 workload:
