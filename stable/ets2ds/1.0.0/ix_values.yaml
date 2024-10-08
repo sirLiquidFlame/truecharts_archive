@@ -29,9 +29,9 @@ service:
     ports:
       udpgameport:
         enabled: true
-        port: 27015
+        port: 27016
         protocol: udp
-        targetPort: 27015
+        targetPort: 27016
 workload:
   main:
     podSpec:
@@ -39,7 +39,7 @@ workload:
         main:
           env:
             GAME_ID: "1948160" # ETS2 Game ID for SteamCMD
-            GAME_PARAMS: "+force_install_dir /serverdata/serverfiles +login anonymous +app_update 1948160 validate +quit"
+            GAME_PARAMS: ""
             PASSWRD: ""  # Optional: Set password if needed for non-anonymous login
             USERNAME: ""  # Optional: Set Steam credentials here if needed
             VALIDATE: "true"
