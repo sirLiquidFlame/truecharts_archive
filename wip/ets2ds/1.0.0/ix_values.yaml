@@ -22,10 +22,12 @@ service:
     enabled: true
     ports:
       main_TCP:
+        enabled: true
         port: 27015
         protocol: tcp
         targetPort: 27015
       main_UDP:
+        enabled: true
         port: 27016
         protocol: udp
         targetPort: 27016
@@ -33,10 +35,12 @@ service:
     enabled: true
     ports:
       udpgameport_TCP:
+        enabled: true
         port: 27017
         protocol: tcp
         targetPort: 27017
       udpgameport_UDP:
+        enabled: true
         port: 27018
         protocol: udp
         targetPort: 27018
