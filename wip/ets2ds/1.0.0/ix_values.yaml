@@ -19,23 +19,24 @@ securityContext:
     runAsUser: 0
 service:
   main:
+    enabled: true
     ports:
-      main-tcp:
+      main_TCP:
         port: 27015
         protocol: tcp
         targetPort: 27015
-      main-udp:
+      main_UDP:
         port: 27015
         protocol: udp
         targetPort: 27015
   udpgameport:
     enabled: true
     ports:
-      udpgameport-tcp:
+      udpgameport_TCP:
         port: 27016
         protocol: tcp
         targetPort: 27016
-      udpgameport-udp:
+      udpgameport_UDP:
         port: 27016
         protocol: udp
         targetPort: 27016
