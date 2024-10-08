@@ -22,7 +22,7 @@ service:
     ports:
       main:
         port: 27015
-        protocol: tcp
+        protocol: both
         targetPort: 27015
   udpgameport:
     enabled: true
@@ -30,7 +30,7 @@ service:
       udpgameport:
         enabled: true
         port: 27016
-        protocol: udp
+        protocol: both
         targetPort: 27016
 workload:
   main:
