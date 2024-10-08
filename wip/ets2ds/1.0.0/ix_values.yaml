@@ -20,17 +20,26 @@ securityContext:
 service:
   main:
     ports:
-      main:
+      main-tcp:
         port: 27015
-        protocol: TCP/UDP
+        protocol: tcp
+        targetPort: 27015
+      main-udp:
+        port: 27015
+        protocol: udp
         targetPort: 27015
   udpgameport:
     enabled: true
     ports:
-      udpgameport:
+      udpgameport-tcp:
         enabled: true
         port: 27016
-        protocol: TCP/UDP
+        protocol: tcp
+        targetPort: 27016
+      udpgameport-udp:
+        enabled: true
+        port: 27016
+        protocol: udp
         targetPort: 27016
 workload:
   main:
