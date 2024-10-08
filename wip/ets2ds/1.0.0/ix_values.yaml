@@ -21,29 +21,29 @@ service:
   main:
     enabled: true
     ports:
-      main_TCP:
+      main-tcp:
         enabled: true
         port: 27015
         protocol: tcp
         targetPort: 27015
-      main_UDP:
+      main-udp:
+        enabled: true
+        port: 27015
+        protocol: udp
+        targetPort: 27015
+  udpgameport:
+    enabled: true
+    ports:
+      udpgameport-tcp:
+        enabled: true
+        port: 27016
+        protocol: tcp
+        targetPort: 27016
+      udpgameport-udp:
         enabled: true
         port: 27016
         protocol: udp
         targetPort: 27016
-  udpgameport:
-    enabled: true
-    ports:
-      udpgameport_TCP:
-        enabled: true
-        port: 27017
-        protocol: tcp
-        targetPort: 27017
-      udpgameport_UDP:
-        enabled: true
-        port: 27018
-        protocol: udp
-        targetPort: 27018
 workload:
   main:
     podSpec:
