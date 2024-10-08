@@ -28,6 +28,9 @@ service:
         port: 27015
         protocol: udp
         targetPort: 27015
+  udpgameport:
+    enabled: true
+    ports:
       udpgameport-tcp:
         port: 27016
         protocol: tcp
